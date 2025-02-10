@@ -34,7 +34,7 @@ jobs:
 
       # 5) (Optional) Upload the output parquet file as an artifact
       - name: Upload parquet artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: athena-parquet-output
           path: output/out.parquet

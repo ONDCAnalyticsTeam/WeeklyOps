@@ -25,7 +25,7 @@ jobs:
       # 3) Run your Python script (adjust path if it's in a subfolder)
       - name: Run Python script
         run: |
-          python scripts/hello_world.py
+          python script/hello_world.py
 
       # 4) (Optional) Print or echo something else
       - name: Print goodbye

@@ -16,11 +16,7 @@ jobs:
         with:
           python-version: '3.9'
 
-      # (Optional) Install dependencies if you have a requirements.txt
-      - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install -r requirements.txt
+    
 
       # 3) Run your Python script (adjust path if it's in a subfolder)
       - name: Run Python script

@@ -1,0 +1,13 @@
+name: week_ops
+on: workflow_dispatch
+jobs: 
+  first-job: 
+    runs-on: windows-latest
+    steps:
+      - name: Print Greeting
+        run: echo "Hello World"
+      - name: Print goodbye
+        run: "Goodbye"
+      
+      
+    
